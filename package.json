@@ -1,0 +1,15 @@
+{
+  "name": "graphql_series",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Chris Jantzen <jantzeca@mail.uc.edu>",
+  "license": "MIT",
+  "scripts": {
+    "client": "cd client && yarn run start",
+    "server": "cd server && yarn run serve",
+    "dev": "concurrently \"yarn run client\" \"yarn run server\""
+  },
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
