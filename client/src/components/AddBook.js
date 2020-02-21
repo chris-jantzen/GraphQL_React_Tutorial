@@ -57,7 +57,6 @@ class AddBook extends Component {
       <form id='add-book' onSubmit={this.onSubmit}>
         <div className='field'>
           <label htmlFor='name'>Book Name</label>
-          <br />
           <input
             type='text'
             name='name'
@@ -68,7 +67,6 @@ class AddBook extends Component {
         </div>
         <div className='field'>
           <label htmlFor='genre'>Genre</label>
-          <br />
           <input
             type='text'
             name='genre'
@@ -79,7 +77,6 @@ class AddBook extends Component {
         </div>
         <div className='field'>
           <label htmlFor='author'>Author</label>
-          <br />
           <select
             name='authorId'
             id='authorname'
