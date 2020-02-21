@@ -10,6 +10,7 @@
     "dev": "concurrently \"yarn run client\" \"yarn run server\""
   },
   "dependencies": {
-    "concurrently": "^5.1.0"
+    "concurrently": "^5.1.0",
+    "lodash.flowright": "^3.5.0"
   }
 }
